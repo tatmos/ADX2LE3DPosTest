@@ -3,9 +3,9 @@ using System.Collections;
 
 public class PanChange : MonoBehaviour {
 	public float duration = 0.02f;
-	public float minDistance = 5f;
-	public float maxDistance = 30f;
-	public float dopplerFactor = 0.0f;
+	public float minDistance = 10f;
+	public float maxDistance = 100f;
+	public float dopplerFactor = 0.2f;
 
 	CriAtomExPlayer atomPlayer = null;
 	CriAtomEx3dSource atom3dSource = null;
