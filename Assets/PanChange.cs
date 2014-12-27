@@ -3,11 +3,17 @@ using System.Collections;
 
 public class PanChange : MonoBehaviour {
 	public float duration = 0.02f;
+	public float minDistance = 5f;
+	public float maxDistance = 30f;
+	public float dopplerFactor = 0.0f;
+
 	CriAtomExPlayer atomPlayer = null;
 	CriAtomEx3dSource atom3dSource = null;
 	void Start () {
 		atomPlayer = new CriAtomExPlayer(); // AtomExPlayer()作成		
 		atom3dSource = new CriAtomEx3dSource();
+		atom3dSource.SetMinMaxDistance(minDistance,maxDistance);
+		atom3dSource.SetDopplerFactor(dopplerFactor);
 		atomPlayer.SetPanType(CriAtomEx.PanType.Pos3d);		
 		switch(Random.Range(0,3))
 		{
