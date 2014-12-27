@@ -6,11 +6,13 @@
       <Orca OrcaName="グローバルAISAC" Expand="True" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoGlobalAisacFolder">
         <Orca OrcaName="Aisac_0" AisacControl="/CriAtomCraftV2Root/全体設定/AISACコントロール/Distance" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoAisac">
           <Orca OrcaName="Volume" ControlDestinationType="Volume" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoAisacGraph">
-            <Orca OrcaName="(no name)" ControlValue="0" DestinationValue="1" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoAisacPoint" />
+            <Orca OrcaName="(no name)" ControlValue="0" DestinationValue="1.86" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoAisacPoint" />
+            <Orca OrcaName="AisacPoint" ControlValue="0.2" DestinationValue="0.57" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoAisacPoint" />
             <Orca OrcaName="(no name)" ControlValue="1" DestinationValue="0" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoAisacPoint" />
           </Orca>
           <Orca OrcaName="ボイスプライオリティ" ControlDestinationType="Priority" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoAisacGraph">
             <Orca OrcaName="(no name)" ControlValue="0" DestinationValue="0" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoAisacPoint" />
+            <Orca OrcaName="AisacPoint" ControlValue="0.4" DestinationValue="-255" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoAisacPoint" />
             <Orca OrcaName="(no name)" ControlValue="1" DestinationValue="-255" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoAisacPoint" />
           </Orca>
         </Orca>

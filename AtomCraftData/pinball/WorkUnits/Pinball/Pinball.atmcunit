@@ -4,7 +4,7 @@
   <OrcaTree OrcaName="(no name)">
     <Orca OrcaName="Pinball" VersionInfo="Ver.2.13.00" FormatVersion="Ver.1.00.01" WorkUnitPath="WorkUnits/Pinball/Pinball.atmcunit" UsedMaterialFlag="False" Expand="True" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoWorkUnit">
       <Orca OrcaName="キューシートフォルダ" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoCueSheetFolder">
-        <Orca OrcaName="PinballMain" OoUniqId="3352f5db-33de-4d1d-b496-67ee2ca5f1cd" AcfMd5hash="J7eqhcJJe1u54FSzEow6Ww==" LastOutputCueSheetSize="396832" CueSheetPaddingSize="836576" Expand="True" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoCueSheet">
+        <Orca OrcaName="PinballMain" OoUniqId="3352f5db-33de-4d1d-b496-67ee2ca5f1cd" AcfMd5hash="pFwZ1Ot1DfYK2xokkRk7ZQ==" LastOutputCueSheetSize="397088" CueSheetPaddingSize="836576" Expand="True" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoCueSheet">
           <Orca OrcaName="wood" SynthType="SynthPolyphonic" BusSend0="0" BusSend1="1" BusSend2="1" CueID="0" Category0="/CriAtomCraftV2Root/全体設定/カテゴリ/Main/main" DisplayUnit="Frame5994" Pos3dAisacControl="/CriAtomCraftV2Root/全体設定/AISACコントロール/Distance" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoCueSynthCue">
             <Orca OrcaName="Track_wood" SynthType="Track" SwitchRange="0.5" ObjectColor="200, 30, 100, 180" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoCueSynthTrack">
               <Orca OrcaName="wood.wav" SynthType="Waveform" LinkWaveform="/CriAtomCraftV2Root/Pinball:1/マテリアルルートフォルダ/wood.wav" LinkWaveformPathName="wood.wav" VoicePriority="255" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoCueSynthWaveform" />
@@ -42,7 +42,7 @@
             </Orca>
             <Orca OrcaName="LinkAisac_0" LinkAisac="/CriAtomCraftV2Root/全体設定/グローバルAISAC/Aisac_0" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoAisacLink" />
           </Orca>
-          <Orca OrcaName="tri" SynthType="SynthPolyphonic" BusSend0="0" BusSend1="1" BusSend2="1" CueID="6" DisplayUnit="Frame5994" Pitch="-500" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoCueSynthCue">
+          <Orca OrcaName="tri" SynthType="SynthPolyphonic" BusSend0="0" BusSend1="1" BusSend2="1" CueID="6" DisplayUnit="Frame5994" Pos3dAisacControl="/CriAtomCraftV2Root/全体設定/AISACコントロール/Distance" Pitch="-500" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoCueSynthCue">
             <Orca OrcaName="Track_tri" SynthType="Track" SwitchRange="0.5" DisplayUnit="Frame5994" ObjectColor="200, 30, 100, 180" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoCueSynthTrack">
               <Orca OrcaName="tri.wav" SynthType="Waveform" LinkWaveform="/CriAtomCraftV2Root/Pinball:1/マテリアルルートフォルダ/tri.wav" LinkWaveformPathName="tri.wav" VoicePriority="255" EgDecayTimeMs="121" EgSustainLevel="0" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoCueSynthWaveform" />
               <Orca OrcaName="Automation" AisacType="Automation" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoAisac">
