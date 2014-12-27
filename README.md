@@ -7,3 +7,6 @@ ADX2LE for Unityを
 http://adx2le.com/
 からダウンロードして
 criware_unity_plugin.unitypackageをAssetsに追加してください。
+
+動画：
+http://youtu.be/QL_f5q71rCw 
