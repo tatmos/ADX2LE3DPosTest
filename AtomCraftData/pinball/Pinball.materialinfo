@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Orca XML File Format -->
+<OrcaTrees ObjectTypeExpression="Full" BinaryEncodingType="Base64" FileVersion="3" FileRevision="0">
+  <OrcaTree OrcaName="(no name)">
+    <Orca OrcaName="Pinball" VersionInfo="Ver.2.13.00" FormatVersion="Ver.1.00.00" MaterialInfoPath="Pinball.materialinfo" MaterialRootPath="Materials" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoMaterialInfoFile">
+      <Orca OrcaName="マテリアルルートフォルダ" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoWaveformFolder">
+        <Orca OrcaName="wood.wav" SourceFileSize="22780" Channels="1" SamplingRate="22050" SampleFrames="11025" EncodeFileSize="3847" LastLoadSrcFileTimeStamp="2013/12/05 16:58:08" LastLoadSrcFileMD5="be057c612a241576891f5708b092429a" WaveImageCacheWriteTime="2013/12/05 16:58:08" ResamplingRate="22050" ReloopEnd="11025" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoWaveform" />
+        <Orca OrcaName="glass.wav" SourceFileSize="88930" Channels="1" SamplingRate="44100" SampleFrames="44100" EncodeFileSize="15100" LastLoadSrcFileTimeStamp="2013/12/05 16:58:08" LastLoadSrcFileMD5="7c100e206be9930d6873ec2cdf1c851b" WaveImageCacheWriteTime="2013/12/05 16:58:08" ResamplingRate="44100" ReloopEnd="44100" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoWaveform" />
+        <Orca OrcaName="synth.wav" SourceFileSize="44830" Channels="1" SamplingRate="22050" SampleFrames="22050" EncodeFileSize="7598" LastLoadSrcFileTimeStamp="2013/12/05 16:58:08" LastLoadSrcFileMD5="7bbbd80b4c8e2aa5951826f95c5ccfb6" WaveImageCacheWriteTime="2013/12/05 16:58:08" ResamplingRate="22050" ReloopEnd="22050" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoWaveform" />
+        <Orca OrcaName="bgm0.wav" SourceFileSize="706330" Channels="1" SamplingRate="44100" SampleFrames="352800" LoopType="Loop" LoopEnd="352800" EncodeFileSize="119693" LastLoadSrcFileTimeStamp="2013/12/05 16:58:08" LastLoadSrcFileMD5="1fe5ccb967e268e4f162c62d4afa69c0" ResamplingRate="44100" ReloopEnd="352800" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoWaveform" />
+        <Orca OrcaName="bgm1.wav" SourceFileSize="353530" Channels="1" SamplingRate="44100" SampleFrames="176400" LoopType="Loop" LoopEnd="176400" EncodeFileSize="61041" LastLoadSrcFileTimeStamp="2013/12/05 16:58:08" LastLoadSrcFileMD5="3eae60e9ad95aca4ae85d688f5f8b093" ResamplingRate="44100" ReloopEnd="176400" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoWaveform" />
+        <Orca OrcaName="noise.wav" SourceFileSize="88466" Channels="1" SamplingRate="44100" SampleFrames="44101" LoopType="Loop" LoopEnd="44101" EncodeFileSize="28672" LastLoadSrcFileTimeStamp="2014/12/28 5:12:04" LastLoadSrcFileMD5="5d4e998019c967558388bed9ce31ce05" WaveImageCacheWriteTime="2014/12/28 5:12:04" ResamplingRate="44100" ReloopEnd="44101" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoWaveform" />
+        <Orca OrcaName="tri.wav" SourceFileSize="44024" Channels="1" SamplingRate="44100" SampleFrames="21842" LoopType="Loop" LoopStart="91" LoopEnd="21841" EncodeFileSize="16384" LastLoadSrcFileTimeStamp="2014/12/28 5:12:04" LastLoadSrcFileMD5="7131950089c51c5759091ceec0978a5f" WaveImageCacheWriteTime="2014/12/28 5:12:04" ResamplingRate="44100" ReloopEnd="21842" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoWaveform" />
+      </Orca>
+    </Orca>
+  </OrcaTree>
+</OrcaTrees>
+<!-- Copyright (c) CRI Middleware Co.,LTD. -->
+<!-- end of document -->

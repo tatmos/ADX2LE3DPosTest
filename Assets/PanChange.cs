@@ -15,11 +15,13 @@ public class PanChange : MonoBehaviour {
 		atom3dSource.SetMinMaxDistance(minDistance,maxDistance);
 		atom3dSource.SetDopplerFactor(dopplerFactor);
 		atomPlayer.SetPanType(CriAtomEx.PanType.Pos3d);		
-		switch(Random.Range(0,3))
+		switch(Random.Range(0,5))
 		{
 		case 0:		atomPlayer.SetCue(null,"wood");break;
 		case 1:		atomPlayer.SetCue(null,"glass");break;
 		case 2:		atomPlayer.SetCue(null,"synth");break;
+		case 3:		atomPlayer.SetCue(null,"noise");break;
+		case 4:		atomPlayer.SetCue(null,"tri");break;
 		}
 		atomPlayer.Set3dSource(atom3dSource);
 		atomPlayer.Set3dListener(CriAtomListener.instance.internalListener);
