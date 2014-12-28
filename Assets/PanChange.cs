@@ -7,29 +7,22 @@ public class PanChange : MonoBehaviour {
 	public float maxDistance = 100f;
 	public float dopplerFactor = 0.2f;
 
-	CriAtomExPlayer atomPlayer = null;
+	public CriAtomExPlayer atomPlayer = null;
 	CriAtomEx3dSource atom3dSource = null;
-	void Start () {
+	LineRenderer lr;
+	void Awake () {
 		atomPlayer = new CriAtomExPlayer(); // AtomExPlayer()作成		
 		atom3dSource = new CriAtomEx3dSource();
+	}
+	void Start () {
 		atom3dSource.SetMinMaxDistance(minDistance,maxDistance);
 		atom3dSource.SetDopplerFactor(dopplerFactor);
 		atomPlayer.SetPanType(CriAtomEx.PanType.Pos3d);		
-		switch(Random.Range(0,5))
-		{
-		case 0:		atomPlayer.SetCue(null,"wood");break;
-		case 1:		atomPlayer.SetCue(null,"glass");break;
-		case 2:		atomPlayer.SetCue(null,"synth");break;
-		case 3:		atomPlayer.SetCue(null,"noise");break;
-		case 4:		atomPlayer.SetCue(null,"tri");break;
-		}
+
 		atomPlayer.Set3dSource(atom3dSource);
 		atomPlayer.Set3dListener(CriAtomListener.instance.internalListener);
 
-		int[] noteScale = new int[]{0-12,2-12,5-12,7-12,9-12,0,2,5,7,9,0+12,2+12,5+12,7+12,9+12};
-		
-		atomPlayer.SetPitch(noteScale[Random.Range(0,noteScale.Length)]*100);
-		duration = Random.Range(1,5)*0.2f;
+		lr = GetComponent<LineRenderer>();
     }
 	float time = 0;
 	void Update () {	
@@ -40,6 +33,15 @@ public class PanChange : MonoBehaviour {
 			atomPlayer.Start();
 			time = Time.timeSinceLevelLoad+duration;
         }
+
+		this.transform.localScale = new Vector3(Mathf.Max(0.5f+1.0f-atomPlayer.GetTime()*0.0001f,1f),Mathf.Min(0.5f+atomPlayer.GetTime()*0.01f,1f),Mathf.Min(0.5f+atomPlayer.GetTime()*0.01f,1f));
+		this.transform.LookAt(CriAtomListener.instance.transform.position);
+
+		if(atomPlayer.GetTime() < 200){
+			lr.enabled = true;
+		} else {
+			lr.enabled = false;
+		}
     }
 	void OnDestroy()
 	{

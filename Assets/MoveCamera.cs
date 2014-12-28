@@ -25,6 +25,12 @@ public class MoveCamera : MonoBehaviour {
 		if(Input.GetKey(KeyCode.C)){
 			this.transform.Translate(speed*100f,0f,0f);
 		}  
+		if(Input.GetKey(KeyCode.R)){
+			this.transform.Translate(0f,speed*100f,0f);
+		} 
+		if(Input.GetKey(KeyCode.F)){
+			this.transform.Translate(0f,-speed*100f,0f);
+		}  
 		{
 			transform.rotation = Quaternion.LookRotation(lookAt.position - transform.position,this.transform.up);
 			this.transform.Translate(0.0f,0f,speed);
