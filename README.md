@@ -9,4 +9,4 @@ http://adx2le.com/
 criware_unity_plugin.unitypackageをAssetsに追加してください。
 
 動画：
-http://youtu.be/CwbqmE9W0Lo 
+http://youtu.be/nGTp7-JrWSA 
